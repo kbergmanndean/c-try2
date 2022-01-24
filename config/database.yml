@@ -2,7 +2,7 @@
 default: &default
   adapter: postgresql
   encoding: unicode
-  pool: <%= ENV.fetch(“RAILS_MAX_THREADS”) { 5 } %>
+  pool: 5
   # you need to put your username and password here
   # username: cathybergmann
   # password: <%=ENV["123"]%>
@@ -10,6 +10,11 @@ development:
   <<: *default
   # Your app name(e.g. my app directory folder name is fotoset-backend)
   database: cathybergmann_development
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: cathybergmann_test
+  pool: 5
 production:
   <<: *default
   # Your app name(e.g. my app directory folder name is fotoset-backend)
