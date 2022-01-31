@@ -6,7 +6,7 @@ import {HashRouter as Router, Routes, Route} from "react-router-dom"
 function App() {
   return (
     <div className="App">
-      <Router basename="/">
+      <Router basename={window.location.pathname || ''}>
         <Routes>
           <Route exact path="/" element={<Home/>}/>
         </Routes>
