@@ -1,6 +1,6 @@
 function Home(){
     return(
-        <a>Admin</a>
+        <p>Admin</p>
     )
 }
 export default Home
