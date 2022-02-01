@@ -1,6 +1,7 @@
 {
   "name": "cathybergmann",
   "version": "1.0.0",
+  "homepage": ".",
   "description": "This README would normally document whatever steps are necessary to get the application up and running.",
   "main": "index.js",
   "directories": {
@@ -21,6 +22,6 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/kbergmanndean/cathybergmann/issues"
-  },
-  "homepage": "."
+  }
+  
 }
