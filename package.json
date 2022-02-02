@@ -11,7 +11,7 @@
   "scripts": {
     "build":"cd client",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "cp -a client/build/. public",
+    "deploy": "cp -a build/public",
     "heroku-postbuild": "npm run build && npm run deploy"
   },
   "repository": {
